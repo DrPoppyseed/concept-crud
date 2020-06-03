@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch-sass": "node-sass --watch sass -o css"
+    "compile": "sass sass/style.scss css/style.css"
   },
   "repository": {
     "type": "git",
@@ -17,13 +17,26 @@
   },
   "homepage": "https://github.com/DrPoppyseed/concept-crud#readme",
   "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "autoprefixer": "^9.8.0",
     "axios": "^0.19.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "compression-webpack-plugin": "^4.0.0",
+    "extract-loader": "^5.1.0",
+    "fibers": "^5.0.0",
     "firebase": "^7.14.6",
     "firebase-admin": "^8.12.1",
     "node-sass": "^4.14.1",
     "nodemon": "^2.0.4",
+    "sass": "^1.26.7",
+    "sass-loader": "^8.0.2",
     "time-stamp": "^2.2.0",
     "uniqid": "^5.2.0",
     "waypoints": "^4.0.1"
+  },
+  "dependencies": {
+    "@material/button": "^6.0.0"
   }
 }
