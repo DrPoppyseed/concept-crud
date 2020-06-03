@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' type='text/css' href='./css/style.css'>
+  <title>concept-crud</title>
+</head>
+<body>
+  <header>
+    <div class='header-container'>
+      <div class='header-top'>
+        <h2 class='project-name'>CONCEPT CRUD</h2>
+        <div class='login-btn'>Login</div>
+      </div>
+      <div class='header-bottom'>
+        <div class='nav-btn'>
+          To do
+        </div>
+        <div class='nav-btn'>
+          Done
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class='body-container'>
+      <div class='body-item'>
+        <input type='checkbox'>
+        <label class='checkbox-container'>
+          <div class='item-text-container'>
+            <h2 class='item-title'>Clean the kitchen</h2>
+            <p class='item-due-date'>DUE: 6/4</p>
+          </div>
+          <div class='item-delete-container'>
+
+          </div>
+        </label>
+      </div>
+    </div>
+    <div class='add-item-container'>
+      <button class='add-btn'>+</button>
+      <div class='add-item-text-container'>
+        <input class='add-item-title' type='text'>
+        <div class='add-item-due-date-container'>
+          <label class='add-item-due-date'>DUE:</label>
+          <input type='date' value='2020-06-03' min='2020-06-03' max='2021-06-03'>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p class='footer-text'>Copyright &copy; 2020 Haruki Jay Shimada. All Rights Reserved. </p>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-database.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

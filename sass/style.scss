@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+html {
+  body {
+    header {
+      width: 100vw;
+
+      .header-container {
+        padding: 0 10rem;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+        .header-top {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin-bottom: 2rem;
+          margin-top: 2rem;
+
+          .project-name {
+
+          }
+
+          .login-btn {
+
+          }
+        }
+
+        .header-bottom {
+          align-self: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 45rem;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+      .body-container {
+        margin-top: 7rem;
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+
+        .body-item {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 2rem;
+          width: 45rem;
+          box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+
+          .checkbox-container {
+            
+            .item-text-container {
+              margin-left: 2rem;
+              display: flex;
+              flex-direction: column;
+
+              .item-title {
+                align-self: flex-start;
+                margin-bottom: 0.5rem;
+              }
+
+              .item-due-date {
+                align-self: flex-start;
+              }
+            }
+          }
+        }
+      }
+
+      .add-item-container {
+        padding: 2rem;
+        width: 45rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #7E7E7E;
+
+        .add-btn {
+          padding: 0 0.2rem;
+          margin-right: 2rem;
+        }
+
+        .add-item-text-container {
+
+          .add-item-title {
+            width: 35rem;
+            margin-bottom: .5rem;
+          }
+
+          .add-item-due-date {
+          }
+        }
+      }
+    }
+
+    footer {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      bottom: 1rem;
+    }
+  }
+}

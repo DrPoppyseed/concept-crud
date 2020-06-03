@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch-sass": "node-sass --watch sass -o css"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "axios": "^0.19.2",
     "firebase": "^7.14.6",
     "firebase-admin": "^8.12.1",
+    "node-sass": "^4.14.1",
     "nodemon": "^2.0.4",
     "time-stamp": "^2.2.0",
     "uniqid": "^5.2.0",
