@@ -1,5 +1,4 @@
-import Item from './models/Item';
-import * as itemView from './src/views/itemView';
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyCLYTOdbWoXJcjCh5pNUOM84DF55JXbc1Q",
