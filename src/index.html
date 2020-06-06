@@ -11,8 +11,8 @@
     <div class='header-container'>
       <div class='header-top'>
         <h2 class='project-name'>CONCEPT CRUD</h2>
-        <div class='login-btn'>
-          Login
+        <div class='auth-btn'>
+          Sign in
         </div>
       </div>
       <div class='header-bottom'>
@@ -26,8 +26,30 @@
     </div>
   </header>
   <main>
+    <!-- <div class='auth-modal'>
+      <div class='auth-modal-header'>
+        <div class='auth-header-signin'></div>
+        <div class='auth-header-signup'></div>
+      </div>
+      <div class='auth-modal-body'>
+        <div class='signin-container'>
+          <div class='signin-email-container'>
+            <label class='signin-email-label'>Your email</label>
+            <input class='signin-email-input' type='text'>
+          </div>
+          <div class='signin-password-container'>
+            <label class='signin-password-label'>Your password</label>
+            <input class='signin-password-input' type='password'>
+          </div>
+          <button class='signin-btn'>Sign in</button>
+        </div>
+        <div class='signup-container'>
+
+        </div>
+      </div>
+    </div> -->
     <div class='body-container'>
-      <div class='body-item'>
+      <!-- <div class='body-item'>
         <input type='checkbox'>
         <label class='checkbox-container'>
           <div class='item-text-container'>
@@ -38,15 +60,15 @@
 
           </div>
         </label>
-      </div>
+      </div> -->
     </div>
     <div class='add-item-container'>
       <button class='add-btn'>+</button>
       <div class='add-item-text-container'>
-        <input class='add-item-title' type='text'>
+        <input class='add-item-title-input' type='text'>
         <div class='add-item-due-date-container'>
-          <label class='add-item-due-date'>DUE:</label>
-          <input type='date' value='2020-06-03' min='2020-06-03' max='2021-06-03'>
+          <label class='add-item-due-date-input'>DUE:</label>
+          <input class='add-item-due-date-input' type='date' value='2020-06-03' min='2020-06-03' max='2021-06-03'>
         </div>
       </div>
     </div>
@@ -58,6 +80,5 @@
   <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-database.js"></script>
-  <script src="js/bundle.js"></script>
 </body>
 </html>

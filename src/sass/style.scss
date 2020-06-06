@@ -23,11 +23,7 @@ html {
           margin-bottom: 2rem;
           margin-top: 2rem;
 
-          .project-name {
-
-          }
-
-          .login-btn {
+          .auth-btn {
             text-decoration: none;
             border: none;
             padding: .5rem 2rem;
@@ -57,8 +53,54 @@ html {
       flex-direction: column;
       align-items: center;
       justify-content: center;
+
+      .auth-modal {
+        height: 30rem;
+        padding: 2rem;
+        display: none;
+        margin-top: 7rem;
+        width: 45rem;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+        .signin-email-container {
+          margin-bottom: 2rem;
+          display: flex;
+          flex-direction: column;
+
+          .signin-email-label {
+            margin-bottom: 0.5rem;
+            align-self: flex-start;
+          }
+
+          .signin-email-input {
+            align-self: flex-start;
+            width: 20rem;
+            outline: none;
+          }
+        }
+
+        .signin-password-container {
+          display: flex;
+          flex-direction: column;
+
+          .signin-password-label {
+            margin-bottom: 0.5rem;
+            align-self: flex-start;
+          }
+
+          .signin-password-input {
+            align-self: flex-start;
+            width: 20rem;
+            outline: none; 
+          }
+        }
+      }
       
       .body-container {
+        padding: 1rem;
+        overflow: auto;
         margin-top: 7rem;
         display: flex;
         flex-direction: column;
@@ -68,6 +110,7 @@ html {
           display: flex;
           flex-direction: row;
           align-items: center;
+          margin-bottom: 1rem;
           padding: 2rem;
           width: 45rem;
           box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -108,8 +151,9 @@ html {
 
         .add-item-text-container {
 
-          .add-item-title {
+          .add-item-title-input {
             width: 35rem;
+            outline: none;
             margin-bottom: .5rem;
           }
 
