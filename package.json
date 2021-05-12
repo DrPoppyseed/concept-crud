@@ -47,7 +47,7 @@
     "mini-css-extract-plugin": "^0.9.0",
     "nodemon": "^2.0.3",
     "requirejs": "^2.3.6",
-    "swiper": "^5.3.8",
+    "swiper": "^6.5.1",
     "time-stamp": "^2.2.0",
     "uniqid": "^5.2.0",
     "waypoints": "^4.0.1"
